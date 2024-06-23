@@ -1,0 +1,449 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.container-logobr-index{
+    display: flex;
+    justify-content: center;
+}
+
+header{
+
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+
+   
+    
+}
+
+
+
+.logo-index{
+    width: 300px;
+}
+
+
+
+nav{
+    
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    
+
+    margin-bottom: 20px;
+    text-align: center;
+    margin-right: 20px;
+
+    
+ }
+
+ nav li{
+    display: inline-block;  
+ }
+
+
+
+ nav li a{
+   
+    background-color: #55154cb4;
+    border-radius: 5px;
+    font-size: 15px;
+    padding-top: 5px;
+    margin: 15px;
+    width: 140px;
+    height: 20px;
+    text-align: center;
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    transition: height 5s;
+ 
+    font-family: 'Times New Roman', Times, serif;
+
+    
+ }
+
+
+ nav li a:hover{
+    background-color: #490839;
+    transform: translate(-3px, -3px);
+    transition: transform 0.3s;
+    
+ }
+ 
+ .dropdown-menu{   
+    position: absolute;
+    display: none;   
+ }
+ 
+ 
+ .dropdown-menu a{
+    background-color: #65215cd0;
+    text-align: center;
+    display: block; 
+ }
+ 
+ .dropdown:hover .dropdown-menu{
+    display: block;
+ }
+ 
+
+
+ /*final header - início main/estetica*/
+
+ .container-capa-index{
+    display: flex;
+    justify-content: center;
+
+ }
+
+
+ .container-capa-index .foto-capa-index{
+    width: 80%;
+    height: 300px;
+
+    margin-top: 25px;
+ }
+
+#container-estetica{
+    display: flex;
+    flex-direction: row;
+
+    justify-content: space-around;
+    align-items: center;
+
+    margin-top: 25px;
+
+}
+
+#container-estetica .foto-texto-estetica{
+    width: 350px;
+    height: 350px;
+
+    border-radius: 10px;
+}
+
+#container-estetica .texto-e-estetica{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+}
+
+#container-estetica .texto-e-estetica #titulo-estetica{
+    text-align: center;
+    color: #490839;
+    margin-bottom: 20px;
+}
+
+#container-estetica .texto-e-estetica .texto-estetica{
+    text-align: justify;
+    font-size: 18px;
+}
+
+#container-estetica .texto-e-estetica .btn-estetica{
+    align-self: center;
+    margin-top: 30px;
+    width: 100px;
+    height: 25px;
+    border-radius: 3px;
+    cursor: pointer;
+    border: 0px;
+    background-color: #490839;
+    
+}
+
+#container-estetica .texto-e-estetica .btn-estetica a{
+    text-decoration: none;
+    color: white;
+}
+
+#container-estetica .texto-e-estetica .btn-estetica:hover{
+    background-color: #660c4f;
+    border-bottom: 2px solid rgb(168, 111, 4);
+
+    transform: translate(-3px, -3px);
+    transition: transform 0.5s;
+
+}
+
+.divisoria-estetica{
+    
+    background: linear-gradient(to right, #205785, #490839);
+    width: 100%;
+    height: 5px;
+
+    margin-top: 25px;
+}
+
+
+ /*final main/estetica - início implantes*/
+
+ .container-foto-implantes{
+    display: flex;
+    justify-content: center;
+ }
+
+ .container-foto-implantes .foto-capa-implantes{
+    width: 80%;
+    height: 300px;
+
+    margin-top: 25px;
+ }
+
+
+ #container-implantes{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    margin-top: 25px;
+ }
+
+#container-implantes .foto-texto-implantes{
+    width: 350px;
+    height: 350px;
+
+    border-radius: 10px;
+}
+
+#container-implantes .titulo-e-texto-implantes{
+    display: flex;
+    flex-direction: column;
+
+    width: 500px;
+}
+
+#container-implantes .titulo-e-texto-implantes #titulo-implantes{
+    text-align: center;
+    color: #6B9CC5;
+    margin-bottom: 20px;
+}
+
+#container-implantes .titulo-e-texto-implantes .texto-implantes{
+    text-align: justify;
+    font-size: 18px;
+}
+
+#container-implantes .titulo-e-texto-implantes .btn-implantes{
+    align-self: center;
+    margin-top: 30px;
+    width: 100px;
+    height: 25px;
+    border-radius: 3px;
+    
+    border: 0px;
+    background-color: #6B9CC5;
+
+    cursor: pointer;
+}
+
+#container-implantes .titulo-e-texto-implantes .btn-implantes a{
+    text-decoration: none;
+    color: white;
+}
+
+#container-implantes .titulo-e-texto-implantes .btn-implantes:hover{
+    background-color: #205785;
+
+    border-bottom: 2px solid rgb(168, 111, 4);
+    transform: translate(-3px, -3px);
+    transition: transform 0.5s;
+}
+
+.divisoria-implantes{
+    width: 100%;
+    height: 5px;
+
+    background: linear-gradient(to right, #490839, #EDA655);
+
+    margin-top: 25px;
+}
+
+/*final implantes - inicio orto*/
+
+.container-foto-orto{
+    display: flex;
+    justify-content: center;
+}
+
+.container-foto-orto .foto-capa-orto{
+    width: 80%;
+    height: 300px;
+
+    margin-top: 25px;
+}
+
+#container-orto{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    margin-top: 25px;
+}
+
+#container-orto .foto-manutencao{
+    width: 350px;
+    height: 350px;
+
+    border-radius: 10px;
+}
+
+#container-orto .titulo-e-texto-orto{
+    display: flex;
+    flex-direction: column;
+
+    width: 500px;
+}
+
+#container-orto .titulo-e-texto-orto #titulo-orto{
+    text-align: center;
+    color: #EDA655;
+    margin-bottom: 20px;
+}
+
+#container-orto .titulo-e-texto-orto .texto-orto{
+    text-align: justify;
+    font-size: 18px;
+}
+
+#container-orto .titulo-e-texto-orto .btn-orto{
+    align-self: center;
+    margin-top: 30px;
+    width: 100px;
+    height: 25px;
+    border-radius: 3px;
+
+    border: 0px;
+    background-color: #EDA655;
+    cursor: pointer;
+}
+
+#container-orto .titulo-e-texto-orto .btn-orto a{
+    text-decoration: none;
+    color: white;
+    
+}
+
+#container-orto .titulo-e-texto-orto .btn-orto:hover{
+    background-color: #945916;
+    transform: translate(-3px, -3px);
+    transition: transform 0.5s;
+
+    border-bottom: 2px solid #490839;
+}
+
+.divisoria-orto{
+    width: 100%;
+    height: 5px;
+
+    background: linear-gradient(to right, #205785, #6B9CC5);
+
+    margin-top: 25px;
+}
+
+/*final orto - inicio endo*/
+
+.container-capa-endo{
+    display: flex;
+    justify-content: center;
+}
+
+.container-capa-endo .foto-capa-endo{
+    width: 80%;
+    height: 300px;
+
+    margin-top: 25px;
+}
+
+
+#container-endo{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+
+    margin-top: 25px;
+
+}
+
+.titulo-e-texto-endo{
+    display: flex;
+    justify-content: space-around;
+}
+
+#container-endo .foto-texto-endo{
+    width: 400px;
+    height: 300px;
+
+    border-radius: 10px;
+}
+
+#container-endo .titulo-e-texto-endo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    width: 500px;
+
+    
+}
+
+#container-endo .titulo-e-texto-endo #titulo-endo{
+    text-align: center;
+    color: #6B9CC5;
+    margin-bottom: 20px;
+}
+
+#container-endo .titulo-e-texto-endo .texto-endo{
+    text-align: justify;
+    font-size: 18px;
+}
+
+#container-endo .titulo-e-texto-endo .btn-endo{
+    align-self: center;
+    margin-top: 30px;
+    width: 100px;
+    height: 25px;
+    border-radius: 3px;
+
+    border: 0px;
+    background-color: #6B9CC5;
+    cursor: pointer;
+}
+
+#container-endo .titulo-e-texto-endo a{
+    text-decoration: none;
+    color: white;
+
+}
+
+#container-endo .titulo-e-texto-endo .btn-endo:hover{
+    background-color: #205785;
+    transform: translate(-3px, -3px);
+    transition: transform 0.5s;
+
+    border-bottom: 2px solid #490839;
+}
+
+/*final endo - incio footer*/
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    height: 100px;
+    margin-top: 25px;
+
+    
+}
+

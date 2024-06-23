@@ -1,0 +1,195 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+
+   
+    
+}
+
+
+nav{
+    
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    
+
+    margin-bottom: 20px;
+    text-align: center;
+    margin-right: 20px;
+
+    
+ }
+
+ nav li{
+    display: inline-block;  
+ }
+
+
+
+ nav li a{
+   
+    background-color: #55154cb4;
+    border-radius: 5px;
+    font-size: 15px;
+    padding-top: 5px;
+    margin: 15px;
+    width: 140px;
+    height: 20px;
+    text-align: center;
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    transition: height 5s;
+ 
+    font-family: 'Times New Roman', Times, serif;
+
+    
+ }
+
+
+ nav li a:hover{
+    background-color: #490839;
+    transform: translate(-3px, -3px);
+    transition: transform 0.3s;
+    
+ }
+ 
+ .dropdown-menu{   
+    position: absolute;
+    display: none;   
+ }
+ 
+ 
+ .dropdown-menu a{
+    background-color: #65215cd0;
+    text-align: center;
+    display: block; 
+ }
+ 
+ .dropdown:hover .dropdown-menu{
+    display: block;
+ }
+
+ /*final nav*/
+
+.container-contato{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container-contato .logo-rosa{
+    width: 400px;
+    height: 400px;
+
+    margin-left: 200px;
+    
+}
+
+.container-contato .fundo-rosa{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #65215C;
+
+    width: 50%;
+    height: 950px;
+}
+
+.container-contato .fundo-rosa .fundo-br{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    width: 500px;
+    height: 700px;
+    background-color: white;
+    border-radius: 25px;
+    
+}
+
+.container-contato .fundo-rosa .fundo-br .container-input{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.container-contato .fundo-rosa .logo-orto{
+    width: 300px;
+    height: 200px;
+}
+
+
+
+
+.container-contato .fundo-rosa .teste{
+    display: flex;
+   
+}
+
+.container-contato .fundo-rosa .fundo-br .enviar{
+    background-color: #490839;
+    border: 0;
+
+    margin-top: 15px;
+    width: 100px;
+    height: 25px;
+    align-self: center;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.container-contato .fundo-rosa .fundo-br .enviar a{
+    text-decoration: none;
+    color: white;
+    padding: 2px;
+    
+}
+
+.container-contato .fundo-rosa .fundo-br .enviar:hover{
+    background-color: #4e215d;
+    transform: translate(-3px, -3px);
+    transition: transform 0.5s;
+}
+
+.container-contato .fundo-rosa .fundo-br .btn-localizacao{
+    margin-top: 200px;
+
+    background-color: #6B9CC5;
+    border-radius: 5px;
+    border: 0;
+    cursor: pointer;
+    width: 120px;
+    height: 20px;
+    align-self: center;
+}
+
+.container-contato .fundo-rosa .fundo-br .btn-localizacao a{
+    text-decoration: none;
+    color: white;
+    padding: 2px;
+}
+
+.container-contato .fundo-rosa .fundo-br .btn-localizacao:hover{
+    background-color: #2f539a;
+    transform: translate(-2px, -2px);
+    transition: transform 0.4s;
+}

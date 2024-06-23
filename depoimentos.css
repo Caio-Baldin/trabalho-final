@@ -1,0 +1,210 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.container-logobr-index{
+    display: flex;
+    justify-content: center;
+}
+
+
+header{
+
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+
+   
+    
+}
+
+
+
+.logo-index{
+    width: 300px;
+}
+
+
+
+nav{
+    
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    
+
+    margin-bottom: 20px;
+    text-align: center;
+    margin-right: 20px;
+
+    
+ }
+
+ nav li{
+    display: inline-block;  
+ }
+
+
+
+ nav li a{
+   
+    background-color: #55154cb4;
+    border-radius: 5px;
+    font-size: 15px;
+    padding-top: 5px;
+    margin: 15px;
+    width: 140px;
+    height: 20px;
+    text-align: center;
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    transition: height 5s;
+ 
+    font-family: 'Times New Roman', Times, serif;
+
+    
+ }
+
+
+ nav li a:hover{
+    background-color: #490839;
+    transform: translate(-3px, -3px);
+    transition: transform 0.3s;
+    
+ }
+ 
+ .dropdown-menu{   
+    position: absolute;
+    display: none;   
+ }
+ 
+ 
+ .dropdown-menu a{
+    background-color: #65215cd0;
+    text-align: center;
+    display: block; 
+ }
+ 
+ .dropdown:hover .dropdown-menu{
+    display: block;
+ }
+
+ /*final nav - inicio maria*/
+
+ .container-maria-com-implantes{
+   display: flex;
+   justify-content: space-evenly;
+   gap: 5px;
+
+   margin-top: 30px;
+ }
+
+ .container-maria-com-implantes .logo-contato{
+   width: 300px;
+   height: 300px;
+   
+ }
+
+ .container-maria-com-implantes .sorriso-com-implantes{
+   width: 400px;
+   height: 300px;
+
+   border: 3px solid #490839;
+
+ }
+
+ .container-maria-sem-implantes{
+   display: flex;
+   justify-content: space-evenly;
+
+ }
+
+ .container-maria-sem-implantes .sorriso-sem-implantes{
+   width: 400px;
+   height: 300px;
+
+   border: 3px solid #490839;
+
+ }
+
+ .container-titulo-texto-maria{
+   display: flex;
+   flex-direction: column;
+   width: 500px;
+   justify-content: center;
+ }
+
+ .container-maria-sem-implantes .container-titulo-texto-maria .titulo-maria{
+   text-align: center;
+
+   margin-bottom: 25px;
+ }
+
+ .container-maria-sem-implantes .container-titulo-texto-maria .texto-maria{
+   text-align: justify;
+ }
+
+ /*final maria - inicio flavio*/
+
+ .container-flavio-com-implantes{
+   display: flex;
+   justify-content: space-evenly;
+
+ }
+
+.container-flavio-com-implantes .logo-contato-homem{
+   width: 300px;
+   height: 300px;
+}
+
+.container-flavio-com-implantes .foto-homem-com-implante{
+   width: 400px;
+   height: 300px;
+
+   border: 3px solid #490839;
+
+}
+
+.container-flavio-sem-implantes{
+   display: flex;
+   justify-content: space-evenly;
+
+}
+
+.container-flavio-sem-implantes .flavio-sem-implantes{
+   width: 400px;
+   height: 300px;
+
+   border: 3px solid #490839;
+
+}
+
+.container-flavio-sem-implantes .container-titulo-texto-flavio{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   width: 500px;
+}
+
+.container-flavio-sem-implantes .container-titulo-texto-flavio .titulo-flavio{
+   text-align: center;
+   margin-bottom: 25px;
+}
+
+.container-flavio-sem-implantes .container-titulo-texto-flavio .texto-flavio{
+   text-align: justify;
+}
+
+/*final flavio*/
